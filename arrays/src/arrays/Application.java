@@ -55,7 +55,7 @@ public class Application {
 		for (int i = 0; i < plants.length; i++) {
 			
 			String s = plants[i].botanicalName;
-			int count = su.countChars(s);                    // Tutorium: Warum muss man das noch hinzufügen?
+			int count = su.countChars(s);                    // Tutorium: Warum muss man das noch hinzufügen?!
 			System.out.println(count);
 		}
 		
